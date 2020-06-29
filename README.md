@@ -8,6 +8,7 @@ Instructions to Run the project:
 
 1.	Open the "PaymentAPIValidation.sln" to run project
 2.	 Check if the following NugetPackages are intalled in Dependencies. If not then, add the following  NugetPackages in project dependencies
+
      a.	SpecFlow(recommended version: 3.3.30)
      
      b.	SpecRun.SpecFlow(recommended version: 3.3.30)
