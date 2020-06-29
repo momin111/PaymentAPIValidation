@@ -22,12 +22,14 @@ Follwoing packages should be included, if not then also add the followign NugetP
 Feature file name: "APIValidationTest.feature"
 Open the feature file and change the scenario as following
 
-In Scenario "Request without a JWT token" keep the key field empty
-In Scenario "Request with an invalid JWT token" provide invalid key
-In all other Scenario, provide valid key.
-In all Scenario put the provided api URL in api field.
+1. In Scenario "Request without a JWT token" keep the key field empty
+2. In Scenario "Request with an invalid JWT token" provide invalid key
+3. In all other Scenario, provide valid key.
+4. In all Scenario put the provided api URL in api field.
 
-Build the project and open Test Explorer, click "Run All Tests"
+Run Test Case:
+
+In Test Explorer, click "Run All Tests"
 
 
 
