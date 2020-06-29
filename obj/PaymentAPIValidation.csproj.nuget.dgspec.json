@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\MOMIN\\QA Office Task\\Arvato\\For submission\\PaymentAPIValidation\\PaymentAPIValidation.csproj": {}
+  },
+  "projects": {
+    "E:\\MOMIN\\QA Office Task\\Arvato\\For submission\\PaymentAPIValidation\\PaymentAPIValidation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\MOMIN\\QA Office Task\\Arvato\\For submission\\PaymentAPIValidation\\PaymentAPIValidation.csproj",
+        "projectName": "PaymentAPIValidation",
+        "projectPath": "E:\\MOMIN\\QA Office Task\\Arvato\\For submission\\PaymentAPIValidation\\PaymentAPIValidation.csproj",
+        "packagesPath": "C:\\Users\\Bushra\\.nuget\\packages\\",
+        "outputPath": "E:\\MOMIN\\QA Office Task\\Arvato\\For submission\\PaymentAPIValidation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bushra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Bushra\\source\\repos\\APIValidationTest\\APIValidation.Specs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.3.30, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.3.30, )"
+            },
+            "SpecRun.SpecFlow": {
+              "target": "Package",
+              "version": "[3.3.17, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

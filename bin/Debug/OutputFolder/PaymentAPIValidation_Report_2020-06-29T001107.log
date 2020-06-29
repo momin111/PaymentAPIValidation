@@ -1,0 +1,773 @@
+﻿2020-06-29T00:11:07.3444460+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-06-29T00:11:07.3444956+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.17 in Framework netcore31 in x64 mode execution started
+2020-06-29T00:11:07.3444979+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-06-29T00:11:07.3459402+03:00;VSTestExecutionThread;Info;Current UserName: 'Bushra', MachineName: 'LAPTOP-GFC80RSC'
+2020-06-29T00:11:07.4256746+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\PaymentAPIValidation.dll
+2020-06-29T00:11:07.4260128+03:00;VSTestExecutionThread;Info;Output folder configured to "..\OutputFolder" in profile
+2020-06-29T00:11:07.4261768+03:00;VSTestExecutionThread;Info;Profile: Report
+2020-06-29T00:11:07.4546810+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\OutputFolder\PaymentAPIValidation_Report_2020-06-29T001107.log
+2020-06-29T00:11:07.4586035+03:00;Thread#12;Info;Checking activation
+2020-06-29T00:11:07.4675173+03:00;Thread#12;Info;Activation check completed
+2020-06-29T00:11:07.4677994+03:00;Thread#12;Info;Starting test run
+2020-06-29T00:11:07.6105716+03:00;Thread#12;Info;Discovering target: Default
+2020-06-29T00:11:07.6110062+03:00;Thread#12;Info;Discovering tests from assembly: C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\PaymentAPIValidation.dll
+2020-06-29T00:11:07.6829797+03:00;Thread#12;Info;Discovered tests from assembly: C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\PaymentAPIValidation.dll
+2020-06-29T00:11:07.6842212+03:00:Test Suite Dump
+2020-06-29T00:11:07.6856839+03:00:#0: PaymentAPIValidation/Report - 
+2020-06-29T00:11:07.6856990+03:00:#1: Default - 
+2020-06-29T00:11:07.6857046+03:00:#2: PaymentAPIValidation - 
+2020-06-29T00:11:07.6857345+03:00:#3: APIValidationTest - 
+2020-06-29T00:11:07.6866255+03:00:#4: Request with a valid JWT token - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+with+a+valid+JWT+token
+2020-06-29T00:11:07.6866708+03:00:#5: Request without a JWT token - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+without+a+JWT+token
+2020-06-29T00:11:07.6866817+03:00:#6: Request with an invalid JWT token - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+with+an+invalid+JWT+token
+2020-06-29T00:11:07.6866864+03:00:#7: Request IBAN number of Austria - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+IBAN+number+of+Austria
+2020-06-29T00:11:07.6866906+03:00:#8: Request IBAN number of Germany - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+IBAN+number+of+Germany
+2020-06-29T00:11:07.6867024+03:00:#9: Request IBAN number of Switzerland - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+IBAN+number+of+Switzerland
+2020-06-29T00:11:07.6867069+03:00:#10: Request IBAN number of Finland - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+IBAN+number+of+Finland
+2020-06-29T00:11:07.6867111+03:00:#11: Request IBAN number of Sweden - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+IBAN+number+of+Sweden
+2020-06-29T00:11:07.6867181+03:00:#12: Request IBAN number of Norway - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+IBAN+number+of+Norway
+2020-06-29T00:11:07.6867234+03:00:#13: Request IBAN number of Denmark - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+IBAN+number+of+Denmark
+2020-06-29T00:11:07.6867286+03:00:#14: Request In-valid IBAN number less than Seven character - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+In-valid+IBAN+number+less+than+Seven+character
+2020-06-29T00:11:07.6867454+03:00:#15: Request invalid but exactly Seven char IBAN with space character - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+invalid+but+exactly+Seven+char+IBAN+with+space+character
+2020-06-29T00:11:07.6867515+03:00:#16: Request invalid but exactly Seven char IBAN with no space character - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+invalid+but+exactly+Seven+char+IBAN+with+no+space+character
+2020-06-29T00:11:07.6867602+03:00:#17: Request valid but not supported IBAN which contains exactly Thirty Four character - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+valid+but+not+supported+IBAN+which+contains+exactly+Thirty+Four+character
+2020-06-29T00:11:07.6867682+03:00:#18: Request valid but not supported IBAN which contains less than Thirty Four character - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+valid+but+not+supported+IBAN+which+contains+less+than+Thirty+Four+character
+2020-06-29T00:11:07.6867739+03:00:#19: Request Invalid IBAN which contains exactly Thirty Four character - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+Invalid+IBAN+which+contains+exactly+Thirty+Four+character
+2020-06-29T00:11:07.6867821+03:00:#20: Request invalid and more than Thirty Four char IBAN - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+invalid+and+more+than+Thirty+Four+char+IBAN
+2020-06-29T00:11:07.6867870+03:00:#21: Request with null or empty IBAN - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+with+null+or+empty+IBAN
+2020-06-29T00:11:07.6867959+03:00:#22: Request with invalid IBAN - TestAssembly:PaymentAPIValidation/Feature:APIValidationTest/Scenario:Request+with+invalid+IBAN
+2020-06-29T00:11:07.6868308+03:00:End: Test Suite Dump
+2020-06-29T00:11:07.7000434+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:07.7016094+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-06-29T00:11:07.7017002+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-06-29T00:11:07.7052984+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:07.7053157+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:07.7053218+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:07.7053252+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-06-29T00:11:07.7058820+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-06-29T00:11:07.7068093+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:07.7085800+03:00:Thread #0: creating new test thread executor for PaymentAPIValidation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-06-29T00:11:07.7105856+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-06-29T00:11:07.7107707+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-06-29T00:11:07.7130471+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-06-29T00:11:07.7148315+03:00:starting Out Of Process Executor
+2020-06-29T00:11:07.7163459+03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-06-29T00:11:07.7184001+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-06-29T00:11:07.7184214+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-06-29T00:11:07.7193812+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:07.7196594+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-06-29T00:11:07.7197357+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-06-29T00:11:07.7197607+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:07.7251663+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:07.7251849+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\Microsoft.VisualStudio.Validation.dll'
+2020-06-29T00:11:07.7252349+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\Microsoft.VisualStudio.Validation.exe'
+2020-06-29T00:11:07.7252605+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:07.7253472+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:07.7253523+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\Microsoft.VisualStudio.Validation.dll'
+2020-06-29T00:11:07.7253783+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\Microsoft.VisualStudio.Validation.exe'
+2020-06-29T00:11:07.7253952+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:07.7254646+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:07.7254692+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\Microsoft.VisualStudio.Validation.dll'
+2020-06-29T00:11:07.7254919+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\Microsoft.VisualStudio.Validation.exe'
+2020-06-29T00:11:07.7255080+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:07.7272576+03:00:Starting callback TCP Rpc server
+2020-06-29T00:11:07.7419381+03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-06-29T00:11:07.7419809+03:00:Started callback TCP Rpc server on port 32768
+2020-06-29T00:11:07.7419837+03:00:Starting logger TCP Rpc server
+2020-06-29T00:11:07.7442597+03:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-06-29T00:11:07.7443002+03:00:Started logger TCP Rpc server on port 32769
+2020-06-29T00:11:07.8089238+03:00:Executing test executor at 'dotnet' 'exec "C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 2184 --uniqueId "2020-06-29T001107" --outputFolder "C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\OutputFolder" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:07.8212690+03:00:Executor with PID 23044 has been started successfully.
+2020-06-29T00:11:07.8240470+03:00:Out of Process Executor 23044 started
+2020-06-29T00:11:07.8240692+03:00:Waiting for endpoint
+2020-06-29T00:11:08.0551790+03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-06-29T00:11:08.0552177+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-06-29T00:11:08.0552203+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-06-29T00:11:08.0552254+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:08.0552271+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-06-29T00:11:08.0552575+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-06-29T00:11:08.0552771+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:08.0558559+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:08.0558654+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\Microsoft.VisualStudio.Threading.dll'
+2020-06-29T00:11:08.0559026+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\Microsoft.VisualStudio.Threading.exe'
+2020-06-29T00:11:08.0559225+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:08.0559898+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:08.0559927+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\Microsoft.VisualStudio.Threading.dll'
+2020-06-29T00:11:08.0560153+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\Microsoft.VisualStudio.Threading.exe'
+2020-06-29T00:11:08.0560352+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:08.0561099+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:08.0561147+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\Microsoft.VisualStudio.Threading.dll'
+2020-06-29T00:11:08.0561367+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\Microsoft.VisualStudio.Threading.exe'
+2020-06-29T00:11:08.0561526+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:08.2375846+03:00:Remote executor port received: 32770
+2020-06-29T00:11:08.2378775+03:00:Creating executor TCP client on port 32770
+2020-06-29T00:11:08.2382324+03:00:Created executor TCP client on port 32770
+2020-06-29T00:11:08.2382382+03:00:Connecting to remote executor TCP server
+2020-06-29T00:11:08.2390075+03:00:Connected remote executor TCP server
+2020-06-29T00:11:08.2391665+03:00:trying to connect to Out of Process Executor the 1 attempt
+2020-06-29T00:11:08.2391749+03:00:Connection to Out of Process Executor established in the 1 attempt
+2020-06-29T00:11:08.3544558+03:00:2020-06-29T00:11:08.3531144+03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\PaymentAPIValidation.dll on test thread #0
+2020-06-29T00:11:08.3588498+03:00:Endpoint 23044 started
+2020-06-29T00:11:08.3744083+03:00:2020-06-29T00:11:08.3737588+03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-06-29T00:11:08.4750449+03:00:2020-06-29T00:11:08.4742192+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-06-29T00:11:08.4781892+03:00:2020-06-29T00:11:08.4775800+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-06-29T00:11:08.4821372+03:00:2020-06-29T00:11:08.4814367+03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\Bushra\.nuget\packages\specflow\3.3.30\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-06-29T00:11:08.5658729+03:00:2020-06-29T00:11:08.5651121+03:00:Thread#0:T:-> Loading plugin C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-06-29T00:11:08.5685436+03:00:2020-06-29T00:11:08.5679132+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-06-29T00:11:08.5758494+03:00:2020-06-29T00:11:08.5751696+03:00:Thread#0:T:-> Using default config
+2020-06-29T00:11:08.5853585+03:00:2020-06-29T00:11:08.5844276+03:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-06-29T00:11:08.5864330+03:00:2020-06-29T00:11:08.5858616+03:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-06-29T00:11:08.5874795+03:00:2020-06-29T00:11:08.5870492+03:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\Bushra\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-06-29T00:11:08.5892728+03:00:2020-06-29T00:11:08.5887000+03:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-06-29T00:11:08.5902290+03:00:2020-06-29T00:11:08.5896314+03:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-06-29T00:11:08.5919693+03:00:2020-06-29T00:11:08.5909682+03:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\Bushra\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-06-29T00:11:08.6021730+03:00:2020-06-29T00:11:08.6010499+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-06-29T00:11:08.6034968+03:00:2020-06-29T00:11:08.6028032+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-06-29T00:11:08.6051508+03:00:2020-06-29T00:11:08.6044001+03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\Bushra\.nuget\packages\microsoft.testplatform.objectmodel\16.6.1\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-06-29T00:11:08.6323901+03:00:2020-06-29T00:11:08.6314727+03:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-06-29T00:11:08.6338053+03:00:2020-06-29T00:11:08.6330483+03:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-06-29T00:11:08.6344777+03:00:2020-06-29T00:11:08.6341720+03:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\Bushra\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-06-29T00:11:08.7809240+03:00:Thread#0: Test #4/0 is started on thread #0
+2020-06-29T00:11:08.8037746+03:00:2020-06-29T00:11:08.8034196+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:08.8042816+03:00:2020-06-29T00:11:08.8040237+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:08.8047673+03:00:2020-06-29T00:11:08.8044982+03:00:Thread#0:B:  {
+2020-06-29T00:11:08.8052760+03:00:2020-06-29T00:11:08.8049709+03:00:Thread#0:B:    "bankAccount": "GB09HAOE91311808002317"
+2020-06-29T00:11:08.8056482+03:00:2020-06-29T00:11:08.8054393+03:00:Thread#0:B:  }
+2020-06-29T00:11:08.8217535+03:00:2020-06-29T00:11:08.8211765+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:08.8232603+03:00:2020-06-29T00:11:08.8227817+03:00:Thread#0:B:When I post this request with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:09.0522355+03:00:2020-06-29T00:11:09.0510886+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:09.0540236+03:00:2020-06-29T00:11:09.0531836+03:00:Thread#0:B:Then the result should be  : "OK"
+2020-06-29T00:11:09.0559177+03:00:2020-06-29T00:11:09.0549416+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-06-29T00:11:09.0572083+03:00:2020-06-29T00:11:09.0564311+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework' from .deps.json file
+2020-06-29T00:11:09.0585159+03:00:2020-06-29T00:11:09.0578776+03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.TestFramework' to 'C:\Users\Bushra\.nuget\packages\mstest.testframework\2.1.2\lib\netstandard1.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll'
+2020-06-29T00:11:09.0617996+03:00:2020-06-29T00:11:09.0606293+03:00:Thread#0:T:done: APIValidationTestSteps.ThenTheResultShouldBe("OK") (0,0s)
+2020-06-29T00:11:09.0720767+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:09.0721504+03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2020-06-29T00:11:09.0721545+03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2020-06-29T00:11:09.0722144+03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:09.0722189+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:09.0722203+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:09.0722222+03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2020-06-29T00:11:09.0722484+03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2020-06-29T00:11:09.0722801+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:09.1070807+03:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0,3253716 seconds
+2020-06-29T00:11:09.1091089+03:00:Thread#0: Test #5/0 is started on thread #0
+2020-06-29T00:11:09.1105421+03:00:2020-06-29T00:11:09.1102244+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:09.1109306+03:00:2020-06-29T00:11:09.1107454+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:09.1112611+03:00:2020-06-29T00:11:09.1110988+03:00:Thread#0:B:  {
+2020-06-29T00:11:09.1115291+03:00:2020-06-29T00:11:09.1113894+03:00:Thread#0:B:    "bankAccount": "GB09HAOE91311808002317"
+2020-06-29T00:11:09.1118312+03:00:2020-06-29T00:11:09.1116656+03:00:Thread#0:B:  }
+2020-06-29T00:11:09.1123282+03:00:2020-06-29T00:11:09.1121393+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:09.1126833+03:00:2020-06-29T00:11:09.1125277+03:00:Thread#0:B:When I post this request with empty ' ' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:09.2946999+03:00:2020-06-29T00:11:09.2935566+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithEmptyKeyToTheApiAsync(" ", "https://api-test....") (0,2s)
+2020-06-29T00:11:09.2960605+03:00:2020-06-29T00:11:09.2956271+03:00:Thread#0:B:Then the response body description should include: "Authorization has been denied for this request."
+2020-06-29T00:11:09.2984433+03:00:2020-06-29T00:11:09.2977549+03:00:Thread#0:T:done: APIValidationTestSteps.ThenTheResponseBodyDescriptionShouldInclude("Authorization has...") (0,0s)
+2020-06-29T00:11:09.3004160+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:09.3004381+03:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2020-06-29T00:11:09.3004403+03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-06-29T00:11:09.3004707+03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:09.3004738+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:09.3004752+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:09.3004768+03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-06-29T00:11:09.3004863+03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-06-29T00:11:09.3004929+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:09.3022848+03:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0,1931381 seconds
+2020-06-29T00:11:09.3032092+03:00:Thread#0: Test #6/0 is started on thread #0
+2020-06-29T00:11:09.3050887+03:00:2020-06-29T00:11:09.3046977+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:09.3059419+03:00:2020-06-29T00:11:09.3054452+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:09.3066897+03:00:2020-06-29T00:11:09.3062797+03:00:Thread#0:B:  {
+2020-06-29T00:11:09.3075193+03:00:2020-06-29T00:11:09.3070046+03:00:Thread#0:B:    "bankAccount": "GB09HAOE91311808002317"
+2020-06-29T00:11:09.3082871+03:00:2020-06-29T00:11:09.3078765+03:00:Thread#0:B:  }
+2020-06-29T00:11:09.3092718+03:00:2020-06-29T00:11:09.3087701+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:09.3101198+03:00:2020-06-29T00:11:09.3096733+03:00:Thread#0:B:When I post this request with invalid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY6' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:09.4767113+03:00:2020-06-29T00:11:09.4760334+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithInvalidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:09.4776856+03:00:2020-06-29T00:11:09.4773220+03:00:Thread#0:B:Then the response body description for invalid JWT token should include : "Authorization has been denied for this request."
+2020-06-29T00:11:09.4802177+03:00:2020-06-29T00:11:09.4797076+03:00:Thread#0:T:done: APIValidationTestSteps.ThenTheResponseBodyDescriptionForInvalidJWTTokenShouldInclude("Authorization has...") (0,0s)
+2020-06-29T00:11:09.4819764+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:09.4819960+03:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2020-06-29T00:11:09.4819988+03:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2020-06-29T00:11:09.4820169+03:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:09.4820212+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:09.4820231+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:09.4820251+03:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2020-06-29T00:11:09.4820362+03:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2020-06-29T00:11:09.4820522+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:09.4836031+03:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0,1803681 seconds
+2020-06-29T00:11:09.4844445+03:00:Thread#0: Test #7/0 is started on thread #0
+2020-06-29T00:11:09.4857842+03:00:2020-06-29T00:11:09.4854203+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:09.4866024+03:00:2020-06-29T00:11:09.4861330+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:09.4874513+03:00:2020-06-29T00:11:09.4870254+03:00:Thread#0:B:  {
+2020-06-29T00:11:09.4878374+03:00:2020-06-29T00:11:09.4875890+03:00:Thread#0:B:    "bankAccount": "AT61 1904 3002 3457 3201"
+2020-06-29T00:11:09.4883269+03:00:2020-06-29T00:11:09.4881032+03:00:Thread#0:B:  }
+2020-06-29T00:11:09.4887672+03:00:2020-06-29T00:11:09.4885759+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:09.4892764+03:00:2020-06-29T00:11:09.4889867+03:00:Thread#0:B:When I post this request of Austria IBAN with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:09.6806006+03:00:2020-06-29T00:11:09.6787853+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfAustriaIBANWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:09.6823735+03:00:2020-06-29T00:11:09.6817871+03:00:Thread#0:B:Then Status Code for IBAN of Austria should be: (200)
+2020-06-29T00:11:09.6859528+03:00:2020-06-29T00:11:09.6854965+03:00:Thread#0:T:done: APIValidationTestSteps.ThenStatusCodeForIBANOfAustriaShouldBe(200) (0,0s)
+2020-06-29T00:11:09.6880129+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:09.6880747+03:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2020-06-29T00:11:09.6880782+03:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2020-06-29T00:11:09.6881628+03:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:09.6881674+03:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:09.6881695+03:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:09.6881719+03:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2020-06-29T00:11:09.6882107+03:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2020-06-29T00:11:09.6883099+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:09.6905409+03:00:Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0,2059845 seconds
+2020-06-29T00:11:09.6919115+03:00:Thread#0: Test #8/0 is started on thread #0
+2020-06-29T00:11:09.6941316+03:00:2020-06-29T00:11:09.6934588+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:09.6948850+03:00:2020-06-29T00:11:09.6944257+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:09.6955853+03:00:2020-06-29T00:11:09.6951762+03:00:Thread#0:B:  {
+2020-06-29T00:11:09.6963358+03:00:2020-06-29T00:11:09.6959826+03:00:Thread#0:B:    "bankAccount": "DE89 3704 0044 0532 0130 00"
+2020-06-29T00:11:09.6968158+03:00:2020-06-29T00:11:09.6965218+03:00:Thread#0:B:  }
+2020-06-29T00:11:09.6977583+03:00:2020-06-29T00:11:09.6972941+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:09.6984036+03:00:2020-06-29T00:11:09.6980754+03:00:Thread#0:B:When I post this request of Germany with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:09.8881664+03:00:2020-06-29T00:11:09.8874175+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfGermanyWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:09.8891723+03:00:2020-06-29T00:11:09.8886860+03:00:Thread#0:B:Then Status Code for IBAN of Germany should be: (200)
+2020-06-29T00:11:09.8914400+03:00:2020-06-29T00:11:09.8908848+03:00:Thread#0:T:done: APIValidationTestSteps.ThenStatusCodeForIBANOfGermanyShouldBe(200) (0,0s)
+2020-06-29T00:11:09.8935387+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:09.8935581+03:00:Thread#:Scheduler: testitem #9 from normal test queue 
+2020-06-29T00:11:09.8935620+03:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2020-06-29T00:11:09.8935836+03:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:09.8935875+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:09.8935900+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:09.8935936+03:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2020-06-29T00:11:09.8936075+03:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2020-06-29T00:11:09.8936200+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:09.8959843+03:00:Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0,2040114 seconds
+2020-06-29T00:11:09.8969908+03:00:Thread#0: Test #9/0 is started on thread #0
+2020-06-29T00:11:09.8988886+03:00:2020-06-29T00:11:09.8984515+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:09.8994499+03:00:2020-06-29T00:11:09.8991791+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:09.9000382+03:00:2020-06-29T00:11:09.8996757+03:00:Thread#0:B:  {
+2020-06-29T00:11:09.9005768+03:00:2020-06-29T00:11:09.9003246+03:00:Thread#0:B:    "bankAccount": "CH 93 00762 011623852957"
+2020-06-29T00:11:09.9010763+03:00:2020-06-29T00:11:09.9008168+03:00:Thread#0:B:  }
+2020-06-29T00:11:09.9016671+03:00:2020-06-29T00:11:09.9014575+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:09.9021010+03:00:2020-06-29T00:11:09.9018642+03:00:Thread#0:B:When I post this request of Switzerland with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:10.0863763+03:00:2020-06-29T00:11:10.0852766+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfSwitzerlandWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:10.0880703+03:00:2020-06-29T00:11:10.0872065+03:00:Thread#0:B:Then Status Code for IBAN of Switzerland should be: (200)
+2020-06-29T00:11:10.0913359+03:00:2020-06-29T00:11:10.0901607+03:00:Thread#0:T:done: APIValidationTestSteps.ThenStatusCodeForIBANOfSwitzerlandShouldBe(200) (0,0s)
+2020-06-29T00:11:10.0935144+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:10.0935587+03:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2020-06-29T00:11:10.0935640+03:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2020-06-29T00:11:10.0936431+03:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:10.0936486+03:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:10.0936512+03:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:10.0936539+03:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2020-06-29T00:11:10.0937089+03:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2020-06-29T00:11:10.0937615+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:10.0962185+03:00:Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 0,1991496 seconds
+2020-06-29T00:11:10.0971817+03:00:Thread#0: Test #10/0 is started on thread #0
+2020-06-29T00:11:10.0987340+03:00:2020-06-29T00:11:10.0983185+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:10.0994121+03:00:2020-06-29T00:11:10.0990516+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:10.1001262+03:00:2020-06-29T00:11:10.0997072+03:00:Thread#0:B:  {
+2020-06-29T00:11:10.1007739+03:00:2020-06-29T00:11:10.1004167+03:00:Thread#0:B:    "bankAccount": "FI2112345600000785"
+2020-06-29T00:11:10.1014316+03:00:2020-06-29T00:11:10.1010506+03:00:Thread#0:B:  }
+2020-06-29T00:11:10.1022086+03:00:2020-06-29T00:11:10.1019033+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:10.1029023+03:00:2020-06-29T00:11:10.1026591+03:00:Thread#0:B:When I post this request of Finland with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:10.3255573+03:00:2020-06-29T00:11:10.3209231+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfFinlandWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:10.3295311+03:00:2020-06-29T00:11:10.3274835+03:00:Thread#0:B:Then Status Code for IBAN of Finland should be: (200)
+2020-06-29T00:11:10.3336034+03:00:2020-06-29T00:11:10.3327885+03:00:Thread#0:T:done: APIValidationTestSteps.ThenStatusCodeForIBANOfFinlandShouldBe(200) (0,0s)
+2020-06-29T00:11:10.3379850+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:10.3380032+03:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2020-06-29T00:11:10.3380065+03:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2020-06-29T00:11:10.3380456+03:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:10.3380497+03:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:10.3380520+03:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:10.3380546+03:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2020-06-29T00:11:10.3380725+03:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2020-06-29T00:11:10.3380909+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:10.3420111+03:00:Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0,2447801 seconds
+2020-06-29T00:11:10.3434645+03:00:Thread#0: Test #11/0 is started on thread #0
+2020-06-29T00:11:10.3467613+03:00:2020-06-29T00:11:10.3461426+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:10.3473679+03:00:2020-06-29T00:11:10.3470934+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:10.3480097+03:00:2020-06-29T00:11:10.3476317+03:00:Thread#0:B:  {
+2020-06-29T00:11:10.3486318+03:00:2020-06-29T00:11:10.3482995+03:00:Thread#0:B:    "bankAccount": "SE45 5000 0000 0583 9825 7466"
+2020-06-29T00:11:10.3491396+03:00:2020-06-29T00:11:10.3488786+03:00:Thread#0:B:  }
+2020-06-29T00:11:10.3502338+03:00:2020-06-29T00:11:10.3498585+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:10.3508938+03:00:2020-06-29T00:11:10.3505718+03:00:Thread#0:B:When I post this request of Sweden with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:10.5453725+03:00:2020-06-29T00:11:10.5444859+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfSwedenWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:10.5464433+03:00:2020-06-29T00:11:10.5458976+03:00:Thread#0:B:Then Status Code for IBAN of Sweden should be: (200)
+2020-06-29T00:11:10.5482643+03:00:2020-06-29T00:11:10.5476207+03:00:Thread#0:T:done: APIValidationTestSteps.ThenStatusCodeForIBANOfSwedenShouldBe(200) (0,0s)
+2020-06-29T00:11:10.5504752+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:10.5505201+03:00:Thread#:Scheduler: testitem #12 from normal test queue 
+2020-06-29T00:11:10.5505393+03:00:Thread#0:Scheduler: considering testitem #12 for thread 0
+2020-06-29T00:11:10.5506089+03:00:Thread#0:TestItem#12:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:10.5506503+03:00:Thread#0:TestItem#12:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:10.5506876+03:00:Thread#0:TestItem#12:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:10.5507118+03:00:Thread#0:Scheduler: using testitem #12 for thread 0
+2020-06-29T00:11:10.5507805+03:00:Thread#0:Scheduler: Test #12 is scheduled for thread
+2020-06-29T00:11:10.5509114+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:10.5583724+03:00:Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 0,21483 seconds
+2020-06-29T00:11:10.5594518+03:00:Thread#0: Test #12/0 is started on thread #0
+2020-06-29T00:11:10.5628794+03:00:2020-06-29T00:11:10.5615829+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:10.5638478+03:00:2020-06-29T00:11:10.5632929+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:10.5648397+03:00:2020-06-29T00:11:10.5643205+03:00:Thread#0:B:  {
+2020-06-29T00:11:10.5658149+03:00:2020-06-29T00:11:10.5652361+03:00:Thread#0:B:    "bankAccount": "NO93 8601 1117 947"
+2020-06-29T00:11:10.5667134+03:00:2020-06-29T00:11:10.5661961+03:00:Thread#0:B:  }
+2020-06-29T00:11:10.5678827+03:00:2020-06-29T00:11:10.5673207+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:10.5686658+03:00:2020-06-29T00:11:10.5682990+03:00:Thread#0:B:When I post this request of Norway with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:10.7575571+03:00:2020-06-29T00:11:10.7570501+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfNorwayWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:10.7584075+03:00:2020-06-29T00:11:10.7580827+03:00:Thread#0:B:Then Status Code for IBAN of Norway should be: (200)
+2020-06-29T00:11:10.7607192+03:00:2020-06-29T00:11:10.7602524+03:00:Thread#0:T:done: APIValidationTestSteps.ThenStatusCodeForIBANOfNorwayShouldBe(200) (0,0s)
+2020-06-29T00:11:10.7627184+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:10.7627545+03:00:Thread#:Scheduler: testitem #13 from normal test queue 
+2020-06-29T00:11:10.7627693+03:00:Thread#0:Scheduler: considering testitem #13 for thread 0
+2020-06-29T00:11:10.7628455+03:00:Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:10.7628516+03:00:Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:10.7628544+03:00:Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:10.7628594+03:00:Thread#0:Scheduler: using testitem #13 for thread 0
+2020-06-29T00:11:10.7629259+03:00:Thread#0:Scheduler: Test #13 is scheduled for thread
+2020-06-29T00:11:10.7629765+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:10.7652824+03:00:Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 0,2056827 seconds
+2020-06-29T00:11:10.7660210+03:00:Thread#0: Test #13/0 is started on thread #0
+2020-06-29T00:11:10.7674974+03:00:2020-06-29T00:11:10.7671474+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:10.7679605+03:00:2020-06-29T00:11:10.7676861+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:10.7683507+03:00:2020-06-29T00:11:10.7681550+03:00:Thread#0:B:  {
+2020-06-29T00:11:10.7687586+03:00:2020-06-29T00:11:10.7685587+03:00:Thread#0:B:    "bankAccount": "DK50 0040 0440 1162 43"
+2020-06-29T00:11:10.7690469+03:00:2020-06-29T00:11:10.7688845+03:00:Thread#0:B:  }
+2020-06-29T00:11:10.7698067+03:00:2020-06-29T00:11:10.7694971+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:10.7702778+03:00:2020-06-29T00:11:10.7700373+03:00:Thread#0:B:When I post this request of Denmark  with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:11.0649860+03:00:2020-06-29T00:11:11.0642379+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfDenmarkWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,3s)
+2020-06-29T00:11:11.0661051+03:00:2020-06-29T00:11:11.0657436+03:00:Thread#0:B:Then Status Code for IBAN of Denmark should be: (200)
+2020-06-29T00:11:11.0680925+03:00:2020-06-29T00:11:11.0676723+03:00:Thread#0:T:done: APIValidationTestSteps.ThenStatusCodeForIBANOfDenmarkShouldBe(200) (0,0s)
+2020-06-29T00:11:11.0702586+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:11.0702844+03:00:Thread#:Scheduler: testitem #14 from normal test queue 
+2020-06-29T00:11:11.0702886+03:00:Thread#0:Scheduler: considering testitem #14 for thread 0
+2020-06-29T00:11:11.0703879+03:00:Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:11.0703910+03:00:Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:11.0703936+03:00:Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:11.0703963+03:00:Thread#0:Scheduler: using testitem #14 for thread 0
+2020-06-29T00:11:11.0704295+03:00:Thread#0:Scheduler: Test #14 is scheduled for thread
+2020-06-29T00:11:11.0704634+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:11.0725315+03:00:Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 0,3064474 seconds
+2020-06-29T00:11:11.0733553+03:00:Thread#0: Test #14/0 is started on thread #0
+2020-06-29T00:11:11.0748011+03:00:2020-06-29T00:11:11.0744559+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:11.0751630+03:00:2020-06-29T00:11:11.0749861+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:11.0754692+03:00:2020-06-29T00:11:11.0753079+03:00:Thread#0:B:  {
+2020-06-29T00:11:11.0758757+03:00:2020-06-29T00:11:11.0755659+03:00:Thread#0:B:    "bankAccount": "AL3JK"
+2020-06-29T00:11:11.0762923+03:00:2020-06-29T00:11:11.0760587+03:00:Thread#0:B:  }
+2020-06-29T00:11:11.0771648+03:00:2020-06-29T00:11:11.0768120+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:11.0779803+03:00:2020-06-29T00:11:11.0776232+03:00:Thread#0:B:When I post this request of less than Seven character and invalid IBAN with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:11.2544378+03:00:2020-06-29T00:11:11.2536802+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfLessThanSevenCharacterAndInvalidIBANWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:11.2556786+03:00:2020-06-29T00:11:11.2550649+03:00:Thread#0:B:Then Message for In-valid IBAN number less than Seven character should be: "A string value with minimum length 7 is required."
+2020-06-29T00:11:11.2582221+03:00:2020-06-29T00:11:11.2576630+03:00:Thread#0:T:done: APIValidationTestSteps.ThenMessageForIn_ValidIBANNumberLessThanSevenCharacterShouldBe("A string value wi...") (0,0s)
+2020-06-29T00:11:11.2605838+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:11.2606289+03:00:Thread#:Scheduler: testitem #15 from normal test queue 
+2020-06-29T00:11:11.2606405+03:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2020-06-29T00:11:11.2607629+03:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:11.2607806+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:11.2607881+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:11.2607955+03:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2020-06-29T00:11:11.2609017+03:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2020-06-29T00:11:11.2610075+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:11.2638237+03:00:Thread#0: Test #14/0 is finished on thread #0 as Succeeded within 0,1903816 seconds
+2020-06-29T00:11:11.2651513+03:00:Thread#0: Test #15/0 is started on thread #0
+2020-06-29T00:11:11.2674537+03:00:2020-06-29T00:11:11.2670610+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:11.2680384+03:00:2020-06-29T00:11:11.2677096+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:11.2684715+03:00:2020-06-29T00:11:11.2682740+03:00:Thread#0:B:  {
+2020-06-29T00:11:11.2689517+03:00:2020-06-29T00:11:11.2687088+03:00:Thread#0:B:    "bankAccount": "AL3J3 3"
+2020-06-29T00:11:11.2693892+03:00:2020-06-29T00:11:11.2691491+03:00:Thread#0:B:  }
+2020-06-29T00:11:11.2699894+03:00:2020-06-29T00:11:11.2697351+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:11.2705024+03:00:2020-06-29T00:11:11.2702604+03:00:Thread#0:B:When I post this request of invalid but exactly Seven char IBAN with space character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:11.4658549+03:00:2020-06-29T00:11:11.4647983+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfInvalidButExactlySevenCharIBANWithSpaceCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:11.4682289+03:00:2020-06-29T00:11:11.4673652+03:00:Thread#0:B:Then Message for invalid but exactly Seven char IBAN with space character should be: "Value format is incorrect."
+2020-06-29T00:11:11.4731139+03:00:2020-06-29T00:11:11.4724250+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.TestFramework, Culture=neutral, PublicKeyToken=null
+2020-06-29T00:11:11.4742833+03:00:2020-06-29T00:11:11.4740236+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-06-29T00:11:11.4747514+03:00:2020-06-29T00:11:11.4745157+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' from .deps.json file
+2020-06-29T00:11:11.4752173+03:00:2020-06-29T00:11:11.4750390+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' from .deps.json
+2020-06-29T00:11:11.4777544+03:00:2020-06-29T00:11:11.4771888+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:11.4808321+03:00:2020-06-29T00:11:11.4803493+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2020-06-29T00:11:11.4816924+03:00:2020-06-29T00:11:11.4813742+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2020-06-29T00:11:11.4823447+03:00:2020-06-29T00:11:11.4820330+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:11.4882352+03:00:2020-06-29T00:11:11.4876635+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:11.4889392+03:00:2020-06-29T00:11:11.4886084+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2020-06-29T00:11:11.4899655+03:00:2020-06-29T00:11:11.4894278+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2020-06-29T00:11:11.4908698+03:00:2020-06-29T00:11:11.4904453+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:11.4918223+03:00:2020-06-29T00:11:11.4914587+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:11.4924621+03:00:2020-06-29T00:11:11.4921423+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2020-06-29T00:11:11.4931473+03:00:2020-06-29T00:11:11.4927281+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2020-06-29T00:11:11.4938448+03:00:2020-06-29T00:11:11.4934966+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:11.4946690+03:00:2020-06-29T00:11:11.4943624+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:11.4952550+03:00:2020-06-29T00:11:11.4949289+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll'
+2020-06-29T00:11:11.4959549+03:00:2020-06-29T00:11:11.4956155+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.exe'
+2020-06-29T00:11:11.4965608+03:00:2020-06-29T00:11:11.4962365+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:11.5422733+03:00:2020-06-29T00:11:11.5414356+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:11.5547752+03:00:Thread#0:TestItem#15:Scheduler: reschedule tests for testitem #15
+2020-06-29T00:11:11.5558427+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:11.5558617+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #15
+2020-06-29T00:11:11.5558646+03:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2020-06-29T00:11:11.5559281+03:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:11.5559320+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:11.5559334+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:11.5559348+03:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2020-06-29T00:11:11.5559935+03:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2020-06-29T00:11:11.5560236+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-06-29T00:11:11.5579811+03:00:Thread#0: Test #15/0 is finished on thread #0 as Failed within 0,2927117 seconds
+2020-06-29T00:11:11.5591237+03:00:Thread#0: Test #15/1 is started on thread #0
+2020-06-29T00:11:11.5605286+03:00:2020-06-29T00:11:11.5601349+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:11.5610614+03:00:2020-06-29T00:11:11.5608084+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:11.5614388+03:00:2020-06-29T00:11:11.5612313+03:00:Thread#0:B:  {
+2020-06-29T00:11:11.5618272+03:00:2020-06-29T00:11:11.5616191+03:00:Thread#0:B:    "bankAccount": "AL3J3 3"
+2020-06-29T00:11:11.5621762+03:00:2020-06-29T00:11:11.5620121+03:00:Thread#0:B:  }
+2020-06-29T00:11:11.5632977+03:00:2020-06-29T00:11:11.5628801+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:11.5639545+03:00:2020-06-29T00:11:11.5636579+03:00:Thread#0:B:When I post this request of invalid but exactly Seven char IBAN with space character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:11.7614959+03:00:2020-06-29T00:11:11.7607933+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfInvalidButExactlySevenCharIBANWithSpaceCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:11.7625620+03:00:2020-06-29T00:11:11.7621047+03:00:Thread#0:B:Then Message for invalid but exactly Seven char IBAN with space character should be: "Value format is incorrect."
+2020-06-29T00:11:11.7656432+03:00:2020-06-29T00:11:11.7650552+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:11.7680250+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:11.7680368+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #15
+2020-06-29T00:11:11.7680387+03:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2020-06-29T00:11:11.7680581+03:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:11.7680604+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:11.7680617+03:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:11.7680632+03:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2020-06-29T00:11:11.7680718+03:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2020-06-29T00:11:11.7680789+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-06-29T00:11:11.7693782+03:00:Thread#0: Test #15/1 is finished on thread #0 as Failed within 0,2102249 seconds
+2020-06-29T00:11:11.7697798+03:00:Thread#0: Test #15/2 is started on thread #0
+2020-06-29T00:11:11.7755507+03:00:2020-06-29T00:11:11.7751389+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:11.7760774+03:00:2020-06-29T00:11:11.7757848+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:11.7766496+03:00:2020-06-29T00:11:11.7763234+03:00:Thread#0:B:  {
+2020-06-29T00:11:11.7771560+03:00:2020-06-29T00:11:11.7768757+03:00:Thread#0:B:    "bankAccount": "AL3J3 3"
+2020-06-29T00:11:11.7775452+03:00:2020-06-29T00:11:11.7773465+03:00:Thread#0:B:  }
+2020-06-29T00:11:11.7782224+03:00:2020-06-29T00:11:11.7779420+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:11.7788183+03:00:2020-06-29T00:11:11.7785340+03:00:Thread#0:B:When I post this request of invalid but exactly Seven char IBAN with space character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:11.9571127+03:00:2020-06-29T00:11:11.9563582+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestOfInvalidButExactlySevenCharIBANWithSpaceCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:11.9586233+03:00:2020-06-29T00:11:11.9580193+03:00:Thread#0:B:Then Message for invalid but exactly Seven char IBAN with space character should be: "Value format is incorrect."
+2020-06-29T00:11:11.9609865+03:00:2020-06-29T00:11:11.9604897+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:11.9630617+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:11.9630719+03:00:Thread#:Scheduler: testitem #16 from normal test queue 
+2020-06-29T00:11:11.9630736+03:00:Thread#0:Scheduler: considering testitem #16 for thread 0
+2020-06-29T00:11:11.9631310+03:00:Thread#0:TestItem#16:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:11.9631331+03:00:Thread#0:TestItem#16:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:11.9631344+03:00:Thread#0:TestItem#16:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:11.9631358+03:00:Thread#0:Scheduler: using testitem #16 for thread 0
+2020-06-29T00:11:11.9631430+03:00:Thread#0:Scheduler: Test #16 is scheduled for thread
+2020-06-29T00:11:11.9631715+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:11.9645168+03:00:Thread#0: Test #15/2 is finished on thread #0 as Failed within 0,1946876 seconds
+2020-06-29T00:11:11.9654108+03:00:Thread#0: Test #16/0 is started on thread #0
+2020-06-29T00:11:11.9670753+03:00:2020-06-29T00:11:11.9667614+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:11.9674507+03:00:2020-06-29T00:11:11.9672825+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:11.9677029+03:00:2020-06-29T00:11:11.9675640+03:00:Thread#0:B:  {
+2020-06-29T00:11:11.9685930+03:00:2020-06-29T00:11:11.9681115+03:00:Thread#0:B:    "bankAccount": "AL3J333"
+2020-06-29T00:11:11.9694372+03:00:2020-06-29T00:11:11.9690573+03:00:Thread#0:B:  }
+2020-06-29T00:11:11.9704634+03:00:2020-06-29T00:11:11.9699978+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:11.9711623+03:00:2020-06-29T00:11:11.9708308+03:00:Thread#0:B:When I post this request with invalid but exactly Seven char IBAN with no space character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:12.1563702+03:00:2020-06-29T00:11:12.1559411+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithInvalidButExactlySevenCharIBANWithNoSpaceCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:12.1571498+03:00:2020-06-29T00:11:12.1567473+03:00:Thread#0:B:Then Message for invalid but exactly Seven char IBAN with no space character should be: "Value format is incorrect."
+2020-06-29T00:11:12.1600688+03:00:2020-06-29T00:11:12.1595304+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:12.1614983+03:00:Thread#0:TestItem#16:Scheduler: reschedule tests for testitem #16
+2020-06-29T00:11:12.1622048+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:12.1622224+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #16
+2020-06-29T00:11:12.1622270+03:00:Thread#0:Scheduler: considering testitem #16 for thread 0
+2020-06-29T00:11:12.1622580+03:00:Thread#0:TestItem#16:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:12.1622611+03:00:Thread#0:TestItem#16:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:12.1622629+03:00:Thread#0:TestItem#16:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:12.1622651+03:00:Thread#0:Scheduler: using testitem #16 for thread 0
+2020-06-29T00:11:12.1622879+03:00:Thread#0:Scheduler: Test #16 is scheduled for thread
+2020-06-29T00:11:12.1623132+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-06-29T00:11:12.1637758+03:00:Thread#0: Test #16/0 is finished on thread #0 as Failed within 0,1983255 seconds
+2020-06-29T00:11:12.1644452+03:00:Thread#0: Test #16/1 is started on thread #0
+2020-06-29T00:11:12.1651893+03:00:2020-06-29T00:11:12.1649342+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:12.1656820+03:00:2020-06-29T00:11:12.1654865+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:12.1659556+03:00:2020-06-29T00:11:12.1658042+03:00:Thread#0:B:  {
+2020-06-29T00:11:12.1663268+03:00:2020-06-29T00:11:12.1661156+03:00:Thread#0:B:    "bankAccount": "AL3J333"
+2020-06-29T00:11:12.1666887+03:00:2020-06-29T00:11:12.1664541+03:00:Thread#0:B:  }
+2020-06-29T00:11:12.1672846+03:00:2020-06-29T00:11:12.1670789+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:12.1681010+03:00:2020-06-29T00:11:12.1676968+03:00:Thread#0:B:When I post this request with invalid but exactly Seven char IBAN with no space character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:12.3485214+03:00:2020-06-29T00:11:12.3477470+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithInvalidButExactlySevenCharIBANWithNoSpaceCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:12.3498532+03:00:2020-06-29T00:11:12.3494469+03:00:Thread#0:B:Then Message for invalid but exactly Seven char IBAN with no space character should be: "Value format is incorrect."
+2020-06-29T00:11:12.3514648+03:00:2020-06-29T00:11:12.3511435+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:12.3537893+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:12.3538527+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #16
+2020-06-29T00:11:12.3538560+03:00:Thread#0:Scheduler: considering testitem #16 for thread 0
+2020-06-29T00:11:12.3538920+03:00:Thread#0:TestItem#16:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:12.3538960+03:00:Thread#0:TestItem#16:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:12.3538974+03:00:Thread#0:TestItem#16:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:12.3538989+03:00:Thread#0:Scheduler: using testitem #16 for thread 0
+2020-06-29T00:11:12.3539323+03:00:Thread#0:Scheduler: Test #16 is scheduled for thread
+2020-06-29T00:11:12.3539633+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-06-29T00:11:12.3555553+03:00:Thread#0: Test #16/1 is finished on thread #0 as Failed within 0,191005 seconds
+2020-06-29T00:11:12.3564335+03:00:Thread#0: Test #16/2 is started on thread #0
+2020-06-29T00:11:12.3574256+03:00:2020-06-29T00:11:12.3571542+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:12.3579825+03:00:2020-06-29T00:11:12.3576933+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:12.3583425+03:00:2020-06-29T00:11:12.3581708+03:00:Thread#0:B:  {
+2020-06-29T00:11:12.3589172+03:00:2020-06-29T00:11:12.3585222+03:00:Thread#0:B:    "bankAccount": "AL3J333"
+2020-06-29T00:11:12.3595753+03:00:2020-06-29T00:11:12.3592188+03:00:Thread#0:B:  }
+2020-06-29T00:11:12.3603613+03:00:2020-06-29T00:11:12.3600484+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:12.3610956+03:00:2020-06-29T00:11:12.3607402+03:00:Thread#0:B:When I post this request with invalid but exactly Seven char IBAN with no space character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:12.5286797+03:00:2020-06-29T00:11:12.5281727+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithInvalidButExactlySevenCharIBANWithNoSpaceCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:12.5295264+03:00:2020-06-29T00:11:12.5290887+03:00:Thread#0:B:Then Message for invalid but exactly Seven char IBAN with no space character should be: "Value format is incorrect."
+2020-06-29T00:11:12.5309215+03:00:2020-06-29T00:11:12.5305368+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:12.5326948+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:12.5327200+03:00:Thread#:Scheduler: testitem #17 from normal test queue 
+2020-06-29T00:11:12.5327248+03:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2020-06-29T00:11:12.5327620+03:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:12.5327659+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:12.5327681+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:12.5327738+03:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2020-06-29T00:11:12.5327990+03:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2020-06-29T00:11:12.5328385+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:12.5341468+03:00:Thread#0: Test #16/2 is finished on thread #0 as Failed within 0,1776167 seconds
+2020-06-29T00:11:12.5347350+03:00:Thread#0: Test #17/0 is started on thread #0
+2020-06-29T00:11:12.5360161+03:00:2020-06-29T00:11:12.5357161+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:12.5364799+03:00:2020-06-29T00:11:12.5362420+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:12.5368326+03:00:2020-06-29T00:11:12.5366418+03:00:Thread#0:B:  {
+2020-06-29T00:11:12.5372003+03:00:2020-06-29T00:11:12.5370120+03:00:Thread#0:B:    "bankAccount": "AL35 2021 1109 0000 0000 0123 4567"
+2020-06-29T00:11:12.5378908+03:00:2020-06-29T00:11:12.5374707+03:00:Thread#0:B:  }
+2020-06-29T00:11:12.5387331+03:00:2020-06-29T00:11:12.5384568+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:12.5396126+03:00:2020-06-29T00:11:12.5391247+03:00:Thread#0:B:When I post this request with valid but not supported IBAN which contains exactly Thirty Four character  with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:12.7313810+03:00:2020-06-29T00:11:12.7307882+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithValidButNotSupportedIBANWhichContainsExactlyThirtyFourCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:12.7326098+03:00:2020-06-29T00:11:12.7320839+03:00:Thread#0:B:Then Response body for valid but not supported IBAN which contains exactly Thirty Four character  should contain: "false"
+2020-06-29T00:11:12.7356074+03:00:2020-06-29T00:11:12.7348565+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:12.7378134+03:00:Thread#0:TestItem#17:Scheduler: reschedule tests for testitem #17
+2020-06-29T00:11:12.7386923+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:12.7387509+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #17
+2020-06-29T00:11:12.7387540+03:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2020-06-29T00:11:12.7388074+03:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:12.7388113+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:12.7388128+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:12.7388143+03:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2020-06-29T00:11:12.7388456+03:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2020-06-29T00:11:12.7388782+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-06-29T00:11:12.7411876+03:00:Thread#0: Test #17/0 is finished on thread #0 as Failed within 0,2063947 seconds
+2020-06-29T00:11:12.7424090+03:00:Thread#0: Test #17/1 is started on thread #0
+2020-06-29T00:11:12.7468545+03:00:2020-06-29T00:11:12.7460994+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:12.7478583+03:00:2020-06-29T00:11:12.7475609+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:12.7485668+03:00:2020-06-29T00:11:12.7482037+03:00:Thread#0:B:  {
+2020-06-29T00:11:12.7492259+03:00:2020-06-29T00:11:12.7489392+03:00:Thread#0:B:    "bankAccount": "AL35 2021 1109 0000 0000 0123 4567"
+2020-06-29T00:11:12.7500202+03:00:2020-06-29T00:11:12.7495367+03:00:Thread#0:B:  }
+2020-06-29T00:11:12.7514529+03:00:2020-06-29T00:11:12.7510053+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:12.7523359+03:00:2020-06-29T00:11:12.7519233+03:00:Thread#0:B:When I post this request with valid but not supported IBAN which contains exactly Thirty Four character  with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:12.9371048+03:00:2020-06-29T00:11:12.9364703+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithValidButNotSupportedIBANWhichContainsExactlyThirtyFourCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:12.9382533+03:00:2020-06-29T00:11:12.9377761+03:00:Thread#0:B:Then Response body for valid but not supported IBAN which contains exactly Thirty Four character  should contain: "false"
+2020-06-29T00:11:12.9489999+03:00:2020-06-29T00:11:12.9486604+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:12.9509107+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:12.9509424+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #17
+2020-06-29T00:11:12.9509469+03:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2020-06-29T00:11:12.9509793+03:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:12.9509828+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:12.9509852+03:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:12.9509876+03:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2020-06-29T00:11:12.9510004+03:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2020-06-29T00:11:12.9510091+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-06-29T00:11:12.9526692+03:00:Thread#0: Test #17/1 is finished on thread #0 as Failed within 0,2101865 seconds
+2020-06-29T00:11:12.9533460+03:00:Thread#0: Test #17/2 is started on thread #0
+2020-06-29T00:11:12.9540999+03:00:2020-06-29T00:11:12.9538290+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:12.9544477+03:00:2020-06-29T00:11:12.9542704+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:12.9547859+03:00:2020-06-29T00:11:12.9545991+03:00:Thread#0:B:  {
+2020-06-29T00:11:12.9550446+03:00:2020-06-29T00:11:12.9549199+03:00:Thread#0:B:    "bankAccount": "AL35 2021 1109 0000 0000 0123 4567"
+2020-06-29T00:11:12.9553006+03:00:2020-06-29T00:11:12.9551881+03:00:Thread#0:B:  }
+2020-06-29T00:11:12.9557772+03:00:2020-06-29T00:11:12.9555737+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:12.9564573+03:00:2020-06-29T00:11:12.9560248+03:00:Thread#0:B:When I post this request with valid but not supported IBAN which contains exactly Thirty Four character  with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:13.1411322+03:00:2020-06-29T00:11:13.1404633+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithValidButNotSupportedIBANWhichContainsExactlyThirtyFourCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:13.1424472+03:00:2020-06-29T00:11:13.1417132+03:00:Thread#0:B:Then Response body for valid but not supported IBAN which contains exactly Thirty Four character  should contain: "false"
+2020-06-29T00:11:13.1452718+03:00:2020-06-29T00:11:13.1445745+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:13.1482092+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:13.1482309+03:00:Thread#:Scheduler: testitem #18 from normal test queue 
+2020-06-29T00:11:13.1482355+03:00:Thread#0:Scheduler: considering testitem #18 for thread 0
+2020-06-29T00:11:13.1482631+03:00:Thread#0:TestItem#18:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:13.1482680+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:13.1482716+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:13.1482753+03:00:Thread#0:Scheduler: using testitem #18 for thread 0
+2020-06-29T00:11:13.1482916+03:00:Thread#0:Scheduler: Test #18 is scheduled for thread
+2020-06-29T00:11:13.1483224+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:13.1508731+03:00:Thread#0: Test #17/2 is finished on thread #0 as Failed within 0,1974915 seconds
+2020-06-29T00:11:13.1518462+03:00:Thread#0: Test #18/0 is started on thread #0
+2020-06-29T00:11:13.1539791+03:00:2020-06-29T00:11:13.1535920+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:13.1545528+03:00:2020-06-29T00:11:13.1542527+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:13.1550929+03:00:2020-06-29T00:11:13.1548104+03:00:Thread#0:B:  {
+2020-06-29T00:11:13.1556773+03:00:2020-06-29T00:11:13.1553396+03:00:Thread#0:B:    "bankAccount": "BE71 0961 2345 6769"
+2020-06-29T00:11:13.1562068+03:00:2020-06-29T00:11:13.1559802+03:00:Thread#0:B:  }
+2020-06-29T00:11:13.1568903+03:00:2020-06-29T00:11:13.1566409+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:13.1575716+03:00:2020-06-29T00:11:13.1572975+03:00:Thread#0:B:When I post this request with valid but not supported IBAN which contains less than Thirty Four character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:13.3406435+03:00:2020-06-29T00:11:13.3396863+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithValidButNotSupportedIBANWhichContainsLessThanThirtyFourCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:13.3418872+03:00:2020-06-29T00:11:13.3413286+03:00:Thread#0:B:Then Response body for valid but not supported IBAN which contains less than Thirty Four character should contain: "false"
+2020-06-29T00:11:13.3448829+03:00:2020-06-29T00:11:13.3442452+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:13.3462149+03:00:Thread#0:TestItem#18:Scheduler: reschedule tests for testitem #18
+2020-06-29T00:11:13.3468968+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:13.3469056+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #18
+2020-06-29T00:11:13.3469075+03:00:Thread#0:Scheduler: considering testitem #18 for thread 0
+2020-06-29T00:11:13.3469253+03:00:Thread#0:TestItem#18:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:13.3469276+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:13.3469290+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:13.3469305+03:00:Thread#0:Scheduler: using testitem #18 for thread 0
+2020-06-29T00:11:13.3469486+03:00:Thread#0:Scheduler: Test #18 is scheduled for thread
+2020-06-29T00:11:13.3469548+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-06-29T00:11:13.3492144+03:00:Thread#0: Test #18/0 is finished on thread #0 as Failed within 0,1972919 seconds
+2020-06-29T00:11:13.3502729+03:00:Thread#0: Test #18/1 is started on thread #0
+2020-06-29T00:11:13.3512889+03:00:2020-06-29T00:11:13.3509485+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:13.3516108+03:00:2020-06-29T00:11:13.3514464+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:13.3518453+03:00:2020-06-29T00:11:13.3517246+03:00:Thread#0:B:  {
+2020-06-29T00:11:13.3521025+03:00:2020-06-29T00:11:13.3519600+03:00:Thread#0:B:    "bankAccount": "BE71 0961 2345 6769"
+2020-06-29T00:11:13.3522901+03:00:2020-06-29T00:11:13.3521927+03:00:Thread#0:B:  }
+2020-06-29T00:11:13.3531921+03:00:2020-06-29T00:11:13.3528172+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:13.3539788+03:00:2020-06-29T00:11:13.3535805+03:00:Thread#0:B:When I post this request with valid but not supported IBAN which contains less than Thirty Four character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:13.5312592+03:00:2020-06-29T00:11:13.5306265+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithValidButNotSupportedIBANWhichContainsLessThanThirtyFourCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:13.5319494+03:00:2020-06-29T00:11:13.5315968+03:00:Thread#0:B:Then Response body for valid but not supported IBAN which contains less than Thirty Four character should contain: "false"
+2020-06-29T00:11:13.5335734+03:00:2020-06-29T00:11:13.5331542+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:13.5358250+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:13.5358415+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #18
+2020-06-29T00:11:13.5358445+03:00:Thread#0:Scheduler: considering testitem #18 for thread 0
+2020-06-29T00:11:13.5359252+03:00:Thread#0:TestItem#18:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:13.5359284+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:13.5359302+03:00:Thread#0:TestItem#18:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:13.5359318+03:00:Thread#0:Scheduler: using testitem #18 for thread 0
+2020-06-29T00:11:13.5359591+03:00:Thread#0:Scheduler: Test #18 is scheduled for thread
+2020-06-29T00:11:13.5359858+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-06-29T00:11:13.5374232+03:00:Thread#0: Test #18/1 is finished on thread #0 as Failed within 0,1870307 seconds
+2020-06-29T00:11:13.5382320+03:00:Thread#0: Test #18/2 is started on thread #0
+2020-06-29T00:11:13.5388537+03:00:2020-06-29T00:11:13.5386192+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:13.5391885+03:00:2020-06-29T00:11:13.5390197+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:13.5394902+03:00:2020-06-29T00:11:13.5393228+03:00:Thread#0:B:  {
+2020-06-29T00:11:13.5397887+03:00:2020-06-29T00:11:13.5396246+03:00:Thread#0:B:    "bankAccount": "BE71 0961 2345 6769"
+2020-06-29T00:11:13.5401495+03:00:2020-06-29T00:11:13.5399182+03:00:Thread#0:B:  }
+2020-06-29T00:11:13.5407846+03:00:2020-06-29T00:11:13.5405218+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:13.5417492+03:00:2020-06-29T00:11:13.5412641+03:00:Thread#0:B:When I post this request with valid but not supported IBAN which contains less than Thirty Four character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:13.7312023+03:00:2020-06-29T00:11:13.7305469+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithValidButNotSupportedIBANWhichContainsLessThanThirtyFourCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:13.7322071+03:00:2020-06-29T00:11:13.7317418+03:00:Thread#0:B:Then Response body for valid but not supported IBAN which contains less than Thirty Four character should contain: "false"
+2020-06-29T00:11:13.7344413+03:00:2020-06-29T00:11:13.7339262+03:00:Thread#0:T:error: Assert.IsTrue failed. 
+2020-06-29T00:11:13.7373775+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:13.7374148+03:00:Thread#:Scheduler: testitem #19 from normal test queue 
+2020-06-29T00:11:13.7374232+03:00:Thread#0:Scheduler: considering testitem #19 for thread 0
+2020-06-29T00:11:13.7374780+03:00:Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:13.7375008+03:00:Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:13.7375056+03:00:Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:13.7375111+03:00:Thread#0:Scheduler: using testitem #19 for thread 0
+2020-06-29T00:11:13.7375548+03:00:Thread#0:Scheduler: Test #19 is scheduled for thread
+2020-06-29T00:11:13.7376217+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:13.7396247+03:00:Thread#0: Test #18/2 is finished on thread #0 as Failed within 0,2012911 seconds
+2020-06-29T00:11:13.7406241+03:00:Thread#0: Test #19/0 is started on thread #0
+2020-06-29T00:11:13.7434444+03:00:2020-06-29T00:11:13.7430326+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:13.7441250+03:00:2020-06-29T00:11:13.7437269+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:13.7446721+03:00:2020-06-29T00:11:13.7443949+03:00:Thread#0:B:  {
+2020-06-29T00:11:13.7449790+03:00:2020-06-29T00:11:13.7448190+03:00:Thread#0:B:    "bankAccount": "ABDR121234567890123456789012345678"
+2020-06-29T00:11:13.7455615+03:00:2020-06-29T00:11:13.7452047+03:00:Thread#0:B:  }
+2020-06-29T00:11:13.7463402+03:00:2020-06-29T00:11:13.7459779+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:13.7470848+03:00:2020-06-29T00:11:13.7467222+03:00:Thread#0:B:When I post this request with Invalid IBAN which contains exactly Thirty Four character with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:13.9118471+03:00:2020-06-29T00:11:13.9112764+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithInvalidIBANWhichContainsExactlyThirtyFourCharacterWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:13.9130636+03:00:2020-06-29T00:11:13.9125457+03:00:Thread#0:B:Then Response body for Invalid IBAN which contains exactly Thirty Four character should contain: "Value format is incorrect."
+2020-06-29T00:11:13.9151777+03:00:2020-06-29T00:11:13.9147126+03:00:Thread#0:T:done: APIValidationTestSteps.ThenResponseBodyForInvalidIBANWhichContainsExactlyThirtyFourCharacterShouldContain("Value format is i...") (0,0s)
+2020-06-29T00:11:13.9172890+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:13.9173328+03:00:Thread#:Scheduler: testitem #20 from normal test queue 
+2020-06-29T00:11:13.9173368+03:00:Thread#0:Scheduler: considering testitem #20 for thread 0
+2020-06-29T00:11:13.9174249+03:00:Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:13.9174296+03:00:Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:13.9174319+03:00:Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:13.9174338+03:00:Thread#0:Scheduler: using testitem #20 for thread 0
+2020-06-29T00:11:13.9174580+03:00:Thread#0:Scheduler: Test #20 is scheduled for thread
+2020-06-29T00:11:13.9174910+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:13.9191337+03:00:Thread#0: Test #19/0 is finished on thread #0 as Succeeded within 0,1783884 seconds
+2020-06-29T00:11:13.9199800+03:00:Thread#0: Test #20/0 is started on thread #0
+2020-06-29T00:11:13.9213428+03:00:2020-06-29T00:11:13.9210550+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:13.9216831+03:00:2020-06-29T00:11:13.9215069+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:13.9220250+03:00:2020-06-29T00:11:13.9218070+03:00:Thread#0:B:  {
+2020-06-29T00:11:13.9226020+03:00:2020-06-29T00:11:13.9223005+03:00:Thread#0:B:    "bankAccount": "ABDR12123456789012345678901234567890"
+2020-06-29T00:11:13.9232633+03:00:2020-06-29T00:11:13.9228377+03:00:Thread#0:B:  }
+2020-06-29T00:11:13.9244073+03:00:2020-06-29T00:11:13.9237822+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:13.9253137+03:00:2020-06-29T00:11:13.9248227+03:00:Thread#0:B:When I post this request with invalid and more than Thirty Four char IBAN with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:14.1061503+03:00:2020-06-29T00:11:14.1054432+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithInvalidAndMoreThanThirtyFourCharIBANWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:14.1071801+03:00:2020-06-29T00:11:14.1066866+03:00:Thread#0:B:Then The result for invalid and more than Thirty Four char IBAN should be :"Bad Request"
+2020-06-29T00:11:14.1100474+03:00:2020-06-29T00:11:14.1093895+03:00:Thread#0:T:done: APIValidationTestSteps.ThenTheResultForInvalidAndMoreThanThirtyFourCharIBANShouldBe("Bad Request") (0,0s)
+2020-06-29T00:11:14.1119940+03:00:2020-06-29T00:11:14.1114071+03:00:Thread#0:B:And Response body for invalid and more than Thirty Four char IBAN should contain: "A string value exceeds maximum length of 34."
+2020-06-29T00:11:14.1139665+03:00:2020-06-29T00:11:14.1135413+03:00:Thread#0:T:done: APIValidationTestSteps.ThenResponseBodyForInvalidAndMoreThanThirtyFourCharIBANShouldContain("A string value ex...") (0,0s)
+2020-06-29T00:11:14.1157014+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:14.1157235+03:00:Thread#:Scheduler: testitem #21 from normal test queue 
+2020-06-29T00:11:14.1157284+03:00:Thread#0:Scheduler: considering testitem #21 for thread 0
+2020-06-29T00:11:14.1157628+03:00:Thread#0:TestItem#21:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:14.1157672+03:00:Thread#0:TestItem#21:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:14.1157738+03:00:Thread#0:TestItem#21:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:14.1157762+03:00:Thread#0:Scheduler: using testitem #21 for thread 0
+2020-06-29T00:11:14.1158050+03:00:Thread#0:Scheduler: Test #21 is scheduled for thread
+2020-06-29T00:11:14.1158467+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:14.1188392+03:00:Thread#0: Test #20/0 is finished on thread #0 as Succeeded within 0,1988033 seconds
+2020-06-29T00:11:14.1196394+03:00:Thread#0: Test #21/0 is started on thread #0
+2020-06-29T00:11:14.1213598+03:00:2020-06-29T00:11:14.1209557+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:14.1218358+03:00:2020-06-29T00:11:14.1215743+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:14.1222153+03:00:2020-06-29T00:11:14.1220085+03:00:Thread#0:B:  {
+2020-06-29T00:11:14.1227086+03:00:2020-06-29T00:11:14.1224585+03:00:Thread#0:B:    "bankAccount": " "
+2020-06-29T00:11:14.1232154+03:00:2020-06-29T00:11:14.1229451+03:00:Thread#0:B:  }
+2020-06-29T00:11:14.1238886+03:00:2020-06-29T00:11:14.1236242+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:14.1244777+03:00:2020-06-29T00:11:14.1241700+03:00:Thread#0:B:When I post this request with null or empty IBAN with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:14.2987112+03:00:2020-06-29T00:11:14.2981930+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithNullOrEmptyIBANWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:14.2995996+03:00:2020-06-29T00:11:14.2992424+03:00:Thread#0:B:Then Response body for null or empty IBAN should contain: "Value is required."
+2020-06-29T00:11:14.3015367+03:00:2020-06-29T00:11:14.3010922+03:00:Thread#0:T:done: APIValidationTestSteps.ThenResponseBodyForNullOrEmptyIBANShouldContain("Value is required.") (0,0s)
+2020-06-29T00:11:14.3032563+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:14.3032966+03:00:Thread#:Scheduler: testitem #22 from normal test queue 
+2020-06-29T00:11:14.3033052+03:00:Thread#0:Scheduler: considering testitem #22 for thread 0
+2020-06-29T00:11:14.3033544+03:00:Thread#0:TestItem#22:testItemMatchesCurrentTestThread:UnSpecific
+2020-06-29T00:11:14.3033606+03:00:Thread#0:TestItem#22:runsOnOneOtherThreadSpecific:False
+2020-06-29T00:11:14.3033644+03:00:Thread#0:TestItem#22:runsOnOneOtherThreadUnspecific:False
+2020-06-29T00:11:14.3033684+03:00:Thread#0:Scheduler: using testitem #22 for thread 0
+2020-06-29T00:11:14.3034158+03:00:Thread#0:Scheduler: Test #22 is scheduled for thread
+2020-06-29T00:11:14.3034843+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-06-29T00:11:14.3051885+03:00:Thread#0: Test #21/0 is finished on thread #0 as Succeeded within 0,1854863 seconds
+2020-06-29T00:11:14.3061620+03:00:Thread#0: Test #22/0 is started on thread #0
+2020-06-29T00:11:14.3084370+03:00:2020-06-29T00:11:14.3080133+03:00:Thread#0:B:Given I have the following request body:
+2020-06-29T00:11:14.3089945+03:00:2020-06-29T00:11:14.3086870+03:00:Thread#0:B:  --- multiline step argument ---
+2020-06-29T00:11:14.3093914+03:00:2020-06-29T00:11:14.3091874+03:00:Thread#0:B:  {
+2020-06-29T00:11:14.3099463+03:00:2020-06-29T00:11:14.3096488+03:00:Thread#0:B:    "bankAccount": "=="
+2020-06-29T00:11:14.3106153+03:00:2020-06-29T00:11:14.3102303+03:00:Thread#0:B:  }
+2020-06-29T00:11:14.3114395+03:00:2020-06-29T00:11:14.3110944+03:00:Thread#0:T:done: APIValidationTestSteps.GivenIHaveTheFollowingRequestBody("{\r\n  "bankAccou...") (0,0s)
+2020-06-29T00:11:14.3121062+03:00:2020-06-29T00:11:14.3118631+03:00:Thread#0:B:When I post this request with invalid IBAN with valid 'Q7DaxRnFls6IpwSW1SQ2FaTFOf7UdReAFNoKY68L' key to the 'https://api-test.afterpay.dev/api/v3/validate/bank-account' api
+2020-06-29T00:11:14.4859383+03:00:2020-06-29T00:11:14.4853179+03:00:Thread#0:T:done: APIValidationTestSteps.WhenIPostThisRequestWithInvalidIBANWithValidKeyToTheApiAsync("Q7DaxRnFls6IpwSW1...", "https://api-test....") (0,2s)
+2020-06-29T00:11:14.4869276+03:00:2020-06-29T00:11:14.4864521+03:00:Thread#0:B:Then Response body for invalid IBAN should contain: "A string value with minimum length 7 is required"
+2020-06-29T00:11:14.4887663+03:00:2020-06-29T00:11:14.4882452+03:00:Thread#0:T:done: APIValidationTestSteps.ThenResponseBodyForInvalidIBANShouldContain("A string value wi...") (0,0s)
+2020-06-29T00:11:14.4907429+03:00:Thread#0:Scheduler: get next test for thread 0
+2020-06-29T00:11:14.4907999+03:00:Thread#:Scheduler: at the end of normal test queue
+2020-06-29T00:11:14.4908021+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-06-29T00:11:14.4908064+03:00:Thread#0:Scheduler: No more tests for thread
+2020-06-29T00:11:14.4935714+03:00:Thread#0: Test #22/0 is finished on thread #0 as Succeeded within 0,1873477 seconds
+2020-06-29T00:11:14.5002540+03:00:2020-06-29T00:11:14.4998956+03:00:Got Deinitialize Signal
+2020-06-29T00:11:14.5034201+03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-06-29T00:11:14.5047432+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-06-29T00:11:14.5058294+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-06-29T00:11:14.5075323+03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-06-29T00:11:14.5075582+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-06-29T00:11:14.5075809+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-06-29T00:11:14.5075884+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:14.5075918+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-06-29T00:11:14.5076599+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-06-29T00:11:14.5076813+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\netcoreapp3.1'
+2020-06-29T00:11:14.5084801+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:14.5084925+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\System.Diagnostics.Process.resources.dll'
+2020-06-29T00:11:14.5085322+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2\System.Diagnostics.Process.resources.exe'
+2020-06-29T00:11:14.5085631+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.2'
+2020-06-29T00:11:14.5086408+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:14.5086449+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\System.Diagnostics.Process.resources.dll'
+2020-06-29T00:11:14.5086710+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2\System.Diagnostics.Process.resources.exe'
+2020-06-29T00:11:14.5086887+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.2'
+2020-06-29T00:11:14.5087743+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:14.5087784+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\System.Diagnostics.Process.resources.dll'
+2020-06-29T00:11:14.5088037+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2\System.Diagnostics.Process.resources.exe'
+2020-06-29T00:11:14.5088218+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.2'
+2020-06-29T00:11:14.5096107+03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2020-06-29T00:11:14.5149238+03:00:Thread#-1:Scheduler: get next test for thread -1
+2020-06-29T00:11:14.5149366+03:00:Thread#:Scheduler: at the end of normal test queue
+2020-06-29T00:11:14.5149382+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-06-29T00:11:14.5193387+03:00;Thread#12;Info;test run finished
+2020-06-29T00:11:14.5197374+03:00;Thread#12;Info;publishing test results
+2020-06-29T00:11:14.5199880+03:00;Thread#12;Info;Not publishing results.
+2020-06-29T00:11:14.5201291+03:00;Thread#12;Info;test results published
+2020-06-29T00:11:14.5203517+03:00;Thread#12;Info;generating reports
+2020-06-29T00:11:14.5968410+03:00;Thread#12;Info;Starting external report generation process
+2020-06-29T00:11:15.8262308+03:00;Thread#12;Info;Successfully generated reports.
+2020-06-29T00:11:15.8288293+03:00;Thread#12;Info;Successfully generated reports
+2020-06-29T00:11:15.8339134+03:00:Total: 19 (test executions: 27)
+2020-06-29T00:11:15.8351129+03:00:Succeeded: 15
+2020-06-29T00:11:15.8353634+03:00:Ignored: 0
+2020-06-29T00:11:15.8355690+03:00:Pending: 0
+2020-06-29T00:11:15.8355730+03:00:Skipped: 0
+2020-06-29T00:11:15.8357668+03:00:Failed: 4
+2020-06-29T00:11:15.8400294+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-06-29T00:11:15.8402513+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Bushra\source\repos\Final01\PaymentAPIValidation\PaymentAPIValidation\bin\Debug\OutputFolder\PaymentAPIValidation_Report_2020-06-29T001107.html'
+========== End of log file ==========
